@@ -260,3 +260,81 @@ footer{
 		padding: 0 ;
 		width: 100%;
 	}
+	.content, .content1{
+		display: flex;
+		background-color: white;
+		padding: 100px;
+		justify-content: space-between;
+	}
+	.number{
+		display: flex;
+		flex-direction: column;
+		justify-content: ;
+		align-items: ;
+		font-size: 20px;
+		align-self: ;
+		
+	
+
+	}
+	.h4{
+		font-size: 50px;
+		align-self: ;
+	
+		margin-bottom: -20px;
+
+
+	}
+	.number p {
+	
+		margin-top: ;
+	}
+	.company{
+		align-self: center;
+	}
+	.company img{
+		padding: 20px;
+		width: 180px;
+		height: 70px;
+	}
+	.c1-left{
+	
+		font-size: 1.12rem;
+		padding: 10px;
+		padding-right: 120px;
+		display: flex;
+		flex-direction: column;
+
+
+	}
+	.c1-left >h2{
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 1.141667em;
+		margin-bottom: 0px;
+	}
+	.free{
+		font-size: .875rem;
+		margin-bottom: 0px;
+	}
+	.c1-right{
+		border: ;
+	}
+	.c1-right > img{
+		width: 350px;
+		height: 450px;
+	}
+	.c1-hubspot{
+	background-color: red;
+	color: white;
+	transition-duration: .04s;
+	width: 36%;
+	padding: 30px 30px;
+	font-size: 20px;
+	border-radius: 4px;
+	margin: 10px 0;
+}
+.c1-hubspot:hover{
+background-color: #ff7979;
+color: white;
+}
