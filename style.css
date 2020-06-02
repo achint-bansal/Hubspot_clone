@@ -7,13 +7,16 @@ body{
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 400px;
 	margin: 0;
+	display: flex;
+	justify-content: center;
+
 }
 header{
 	background-color: #ecf0f1;
 	display: flex;
 	justify-content: space-between;
-		align-items: center;
-	padding: 0;
+	align-items: center;
+	padding: 0 50px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -28,6 +31,8 @@ header{
 	background-color: #fab1a0;
 	position: relative;
 	z-index: -1;
+
+
 }
 
 .img-txt{
@@ -38,6 +43,7 @@ header{
   padding-top: 10px;
   padding-left: 10px;
   font-size: 30px;
+  padding: 0 80px;
 
   
   }
@@ -74,6 +80,7 @@ header ul{
 	align-items: center;
 	height: ;
 	margin-top: 5%;
+	padding: 0 50px;
 
 }
 #logo img{
@@ -139,7 +146,7 @@ color: white;
 .boxes{
 	display: flex;
 	flex-direction: row;
-	padding: 20px 60px;
+	padding: 20px 70px;
 }
 .box{
 	background-color: white;
@@ -232,6 +239,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding: 0 81px;
 }
 .info-text{
 	text-align: center;
@@ -275,7 +283,7 @@ footer{
 	font-weight: 600px medium;
 	width: 100%;
 	flex-direction: column;
-		padding: 0px;
+		padding: 0px 50px;
 	
 
 }
@@ -348,6 +356,7 @@ footer{
 
 }
 .lower-left{
+	padding: 0 20px;
 
 }
 .lower-right{
