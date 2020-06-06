@@ -80,13 +80,18 @@ header ul{
 	align-items: center;
 	height: ;
 	margin-top: 77px;
-	padding: 0 92px;
+	padding: 2px 112px 2px 87px;
+	font-size: 16px;
+	font-weight: 600px bold;
+	line-height: 29px;
 
 }
 .logo img{
 	
-		flex:  2 0 200px;
+		display: flex;
 		align-self: center;
+		width: 120px;
+		height: 53px;
 		
 	
 
@@ -96,19 +101,19 @@ header ul{
 	padding-left: ;
 }
 .right{
-padding-right: 50px;
-font-weight: 600px bold;
-font-size: 16px;
+padding-right: ;
+font-weight:;
+font-size: ;
 	
 }
 .right li{
-padding: 10px;
-	font-size: 20px;
+margin-left: 30px;
 
 }
 .right ul{
 	display: flex;
 	list-style: none;
+	margin: 24.5px 0;
 }
 .header-btn{
 	padding-right: ;
