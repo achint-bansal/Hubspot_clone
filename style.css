@@ -3,9 +3,10 @@
 }
 body{
 	background-color: #ecf0f1;
-	color: #33475b;
+	color: #33475B;
+	background-blend-mode: screen;
 	font-family: 'Nunito Sans', sans-serif;
-	font-weight: 400px;
+	font-weight: 400px normal;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -22,6 +23,7 @@ header{
 	position: fixed;
 	top: 0;
 	width: 100%;
+	z-index: 2;
 	
 }
 .img-bg-clr{
@@ -156,37 +158,54 @@ color: white;
 .boxes{
 	display: flex;
 	flex-direction: row;
-	padding: 20px 70px;
+	justify-content: space-between;
+	padding: 8px 92px 8px 92px;
+	width: 100%;
 }
 .box{
 	background-color: white;
 	border: none;
 	box-sizing: border-box;
-	width: 400px;
-	height: 500px;
-	padding: 0 50px;
-	margin: 20px;
+	width: 345px;
+	height: 476px;
+	text-decoration: none solid rgb(51,71,91);
+	padding-top: 24px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin: ;
+	transition: transform .5s;
 	font-size: 20px;
+
 }
 .box:hover{
-	box-shadow: 2px 2px 7px .7px grey;
+	box-shadow: 2px 2px 7px 3px inherit;
+	transform: scale(1.02);
 }
-.box ul{
+.popular{
 	padding-left: 0;
-	font-weight: 600px;
+	font-weight: 600px bold;
 	font-size: 13px;
 	color: #33475b;
-	font-stretch: 20.944px;
+	line-height:  20.944px;
+	margin-bottom: 0px;
+}
+.box ul{
+	margin-top: 16px;
+	margin-bottom: 7px;
+	padding-left: 0px;
 }
 .box li{
 	list-style: none;
 	text-align: left;
-	font-weight: 500px;
+	font-weight: 500px medium;
 	font-size: 13px;
+	line-height: 31px;
 	color: #33475b;
+	margin-top: ;
 }
 .box i{
 	color: red;
+	font-size: 18px;
 }
 .box h2{
 	font-weight: 600px;
@@ -194,21 +213,38 @@ color: white;
 	color: #33475b;
 }
 .box p{
+	margin-top: 29px;
 	font-size: 14.208px;
 	color: #33475b;
+	margin-bottom: 26px;
+	line-height: 22.89px;
+	font-size: 14.208px;
+}
+.box hr{
+	margin-bottom: 27px;
 }
 .box1{
 	border: none;
+	box-sizing: border-box;
+	width: 345px;
+	height: 476px;
+	margin-top: ;
+	padding-right: 32px;
+	margin: ;
+	font-size: 20px;
+
+	/*border: none;
 	box-sizing: border-box;
 	width: 400px;
 	height: 400px;
 	padding: 0 50px;
 	margin: 20px;
-	font-size: 20px;
+	font-size: 20px;*/
 }
 .box1 h2{
 	font-weight: 700px;
 	font-size: 32px;
+	margin-top: 0px;
 }
 .box1 p{
 	font-size: 18px;
@@ -217,11 +253,12 @@ color: white;
 	background-color: red;
 	width: 100%;
 	transition-duration: .04s;
-	padding: 20px 79px;
+	padding: 15px 103px;
 	font-size: 15px;
 	color: #ffffff;
 	font-weight: 600px;
 	border-radius: 4px;
+
 }
 .started:hover{
 background-color: #ff7979;
@@ -250,6 +287,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 0 81px;
+margin-top: 2px;
 }
 .info-text{
 	text-align: center;
