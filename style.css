@@ -31,8 +31,13 @@ header{
 	background-color: #fab1a0;
 	position: relative;
 	z-index: -1;
+	height: 790px;
 
 
+}
+.img-bg-clr img{
+	
+	margin-top: 260px ;
 }
 
 .img-txt{
@@ -43,17 +48,39 @@ header{
   padding-top: 10px;
   padding-left: 10px;
   font-size: 30px;
-  padding: 0 80px;
+  padding: 49px 75px;
 
   
   }
   .img-txt h2{
   	font-weight: 700px;
   	font-size: 46px;
+  	line-height: 60px;
+  	margin-bottom: 23px;
+
   }
   .img-txt p{
   	font-size: 18px;
+  	line-height: 29px;
+  	width: 500px;
+  	margin-bottom: 32px;
   }
+  .hubspot1{
+	background-color: red;
+	color: white;
+	transition-duration: .04s;
+	padding: 26.5px 37.5px;
+	font-size: 17px;
+	font-weight: 600px bold;
+	line-height: 29px;
+	border-radius: 4px;
+	margin-left: 1px;
+	margin-top: ;
+}
+.hubspot1:hover{
+background-color: #ff7979;
+color: white;
+}
 
 a{
 	text-decoration: none;
@@ -268,12 +295,14 @@ color: white;
 	background-color: white;
 	color: black;
 	transition-duration: 0.04s;
-	padding: 20px 10px;
-	margin-top: 80px;
-	margin-left: 40px;
+	padding: 11px 15.5px;
+	margin-top: 70px;
+	margin-left: -2px;
 	font-size: 13px;
+	line-height: 29px;
 	font-weight: 500px;
 	border-radius: 4px;
+	text-decoration: none solid rgb(51,71,91); 
 }
 .contact:hover{
 	background-color: #e6fff7;
@@ -331,7 +360,7 @@ footer{
 	font-weight: 600px medium;
 	width: 100%;
 	flex-direction: column;
-		padding: 0px 50px;
+		padding-left:  91px;
 	
 
 }
@@ -339,6 +368,9 @@ footer{
 .social{
 	
 
+}
+footer  li:hover{
+	color: #7fd1de;
 }
 .social > ul{
 	display: flex;
@@ -360,20 +392,31 @@ footer{
 }
 .div-footer{
 	display: flex;
+	padding-right: 26px;
 }
 .footer-box ul li{
 	list-style: none;
 	font-size: 14px;
-	font-weight: 600px semi bold;
+	font-weight: 600px bold;
+	padding: 8px 0px;
+	text-align: left;
+	text-decoration: none solid rgb(127,209,222);
 }
 .footer-box{
 	background-color: ;
 	width: 270px;
 	height: 400px;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: 700px bold;
+	line-height: 29px;
 	padding: 0 0px;
-	margin: 10px;
-	line-height: 40px;
+	margin: ;
+	margin-top: 64px;
+	margin-right: 9px;
+}
+.footer-box ul{
+	padding-left: 0px;
+	padding-right: ;
 }
 .footer-box b{
 	color: white;
@@ -385,12 +428,15 @@ footer{
 	justify-content: center;
 	width: 100%;
 	list-style: none;
+	padding-right: 125px;
 	margin: ;
 	text-align: ;
 }
 .lang li{
-	font-size: 20px;
-	padding: 20px;
+	font-size: 18px;
+	font-weight: 600px;
+	line-height: 29px;
+	padding: 16px;
 	margin: ;
 	
 }
