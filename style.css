@@ -69,13 +69,12 @@ header{
 	background-color: red;
 	color: white;
 	transition-duration: .04s;
-	padding: 26.5px 37.5px;
+	padding: 22px 34px;
 	font-size: 17px;
 	font-weight: 600px bold;
 	line-height: 29px;
 	border-radius: 4px;
 	margin-left: 1px;
-	margin-top: ;
 }
 .hubspot1:hover{
 background-color: #ff7979;
@@ -127,8 +126,22 @@ header ul{
 
 }
 .logo{
-	padding-left: ;
+	/* padding-left: ; */
 }
+.navbar__links li {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgb(51, 71, 91);
+}
+
+.navbar__links li i {
+	font-size: 22px;
+	color: rgb(124, 152, 182);
+	margin-left: 5px;
+}
+
 .right{
 padding-right: ;
 font-weight:;
