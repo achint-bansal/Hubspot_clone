@@ -20,7 +20,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 97px 0 82px;
+	padding: 0 142px 0 125px;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -49,12 +49,13 @@ header{
 .img-txt{
 	  position: absolute;
   top: 0px;
-  left: 16px;
+  left: 59px;
   width: 500px;
-  padding-top: 10px;
+  /*padding-top: 10px;
   padding-left: 10px;
-  font-size: 30px;
+*/  font-size: 30px;
   padding: 49px 75px;
+  margin-left: ;
 
   
   }
@@ -110,7 +111,7 @@ header ul{
 	align-items: center;
 	height: ;
 	margin-top: 77px;
-	padding: 2px 112px 2px 87px;
+	padding: 2px 155px 2px 131px;
 	font-size: 16px;
 	font-weight: 600px bold;
 	line-height: 29px;
@@ -201,7 +202,7 @@ color: white;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 8px 92px 8px 92px;
+	padding: 8px 135px 8px 135px;
 	width: 100%;
 }
 .box{
