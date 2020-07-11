@@ -13,7 +13,7 @@ body{
 	justify-content: center;
 
 }
-.dropdown-s {
+/* .dropdown-s {
 	position: relative;
 	display: inline-block;
 }
@@ -42,7 +42,7 @@ body{
 }
 .dropdown-s:hover .dropdown-content-s:hover{
 	display: block;
-}
+} */
 header{
 
 	background-color: #f5f8fa;
@@ -62,6 +62,12 @@ header{
 	font-size: 22px;
 	color: rgb(124, 152, 182);
 	margin-left: 5px;
+}
+.fa-bars{
+	font-size: 26px;
+	font-weight: 100px;
+	color: #33475B;
+	margin-right: 10px;
 }
 .img-bg-clr{
 	background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
@@ -155,13 +161,12 @@ header ul{
 		width: 120px;
 		height: 53px;
 		
-	
+		
 
 
 }
-.logo{
-	/* padding-left: ; */
-}
+
+
 .navbar__links li {
 	display: flex;
 	align-items: center;
@@ -601,4 +606,40 @@ footer  li:hover{
 .c1-hubspot:hover{
 background-color: #ff7979;
 color: white;
+}
+
+/* --- MEDIA QUERIES FOR RESPONSIVENESS --- */
+
+
+@media screen and (min-width: 400px) {
+	div.menu-bar{
+	  display: none;
+	}
+  }
+@media screen and (max-width: 400px) {
+	header {
+	  display: none;
+	}
+	div.navbar {
+	margin: 0px;
+	height: 51px;
+	padding: 12px;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	display: flex;
+	justify-content: space-between;
+	}
+	div.right{
+		display: none;
+	}
+		div.logo img{
+		  height: 51px;
+		}
+		div.menu-bar{
+			display: flex;
+		  }
+
 }
