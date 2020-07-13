@@ -648,7 +648,7 @@ color: white;
 			  display: flex;
 			  flex-direction: column;
 			  margin-top: 100px;
-			  width: 820px;
+			  width: 840px;
 			  padding: 84px 32px;
 		  }
 		  div.img-txt{
@@ -659,6 +659,11 @@ color: white;
 		  }
 		  div.img-txt h2{
 			  text-align: center;
+			  font-weight: 700px;
+			  font-style: normal;
+			  font-size: 28px;
+			  line-height: 40px;
+			  
 
 		  }
 
