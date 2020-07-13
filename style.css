@@ -91,9 +91,10 @@ header{
   width: 500px;
   /*padding-top: 10px;
   padding-left: 10px;
-*/  font-size: 30px;
-  padding: 49px 75px;
-  margin-left: ;
+*/
+font-size: 30px;
+padding: 49px 75px;
+margin-left: ;
 
   
   }
@@ -617,7 +618,7 @@ color: white;
 	  display: none;
 	}
   }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
 	header {
 	  display: none;
 	}
@@ -644,8 +645,21 @@ color: white;
 			display: flex;
 		  }
 		  div.img-bg-clr{
+			  display: flex;
+			  flex-direction: column;
 			  margin-top: 100px;
-			  width: 810px;
+			  width: 820px;
+			  padding: 84px 32px;
+		  }
+		  div.img-txt{
+			  display: flex;
+			  flex-direction: column;
+			  position: relative;
+			  padding: 0px;
+		  }
+		  div.img-txt h2{
+			  text-align: center;
+
 		  }
 
 }
