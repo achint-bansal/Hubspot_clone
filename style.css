@@ -79,7 +79,7 @@ header{
 
 
 }
-.img-bg-clr img{
+.heroSVG{
 	
 	margin-top: 260px ;
 }
@@ -108,8 +108,10 @@ margin-left: ;
   .img-txt p{
   	font-size: 18px;
   	line-height: 29px;
-  	width: 500px;
-  	margin-bottom: 32px;
+	  font-weight: 400px;
+	  font-style: normal;
+	  margin-bottom: 32px;
+	  width: 500px;
   }
   .hubspot1{
 	background-color: #ff7a59;
@@ -613,9 +615,12 @@ color: white;
 /* --- MEDIA QUERIES FOR RESPONSIVENESS --- */
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
 	div.menu-bar{
 	  display: none;
+	}
+	div.garage{
+		display: none;
 	}
   }
 @media screen and (max-width: 768px) {
@@ -648,14 +653,18 @@ color: white;
 			  display: flex;
 			  flex-direction: column;
 			  margin-top: 100px;
-			  width: 840px;
+			  width: 820px;
+			  height: auto;
 			  padding: 84px 32px;
 		  }
 		  div.img-txt{
 			  display: flex;
 			  flex-direction: column;
+			  align-items: center;
 			  position: relative;
 			  padding: 0px;
+			  width: 756px;
+			  left: 0px;
 		  }
 		  div.img-txt h2{
 			  text-align: center;
@@ -663,8 +672,30 @@ color: white;
 			  font-style: normal;
 			  font-size: 28px;
 			  line-height: 40px;
-			  
+			
+
 
 		  }
+		  div.img-txt p{
+			  font-weight: 500px;
+			  text-align: center;
+		  }
+		  div.flex-row{
+			  display: flex;
+			  flex-direction: row;
+		  }
+		  a.hubspot1{
+			  text-align: center;
+			  width: 340px;
+
+		  }
+		  img.heroSVG{
+			  display: none;
+		  }
+		  img.garage{
+			margin-top: 100px;
+			width: 800px;
+		  }
+		  
 
 }
