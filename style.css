@@ -13,6 +13,12 @@ body{
 	justify-content: center;
 
 }
+
+.container {
+	max-width: 1220px;
+	margin: 0 auto;
+	position: relative;
+}
 /* .dropdown-s {
 	position: relative;
 	display: inline-block;
@@ -74,59 +80,62 @@ header{
 	background-color: #fab1a0;
 	position: relative;
 	z-index: -1;
-	height: 790px;
-
-
-
 }
 .heroSVG{
-	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	margin-top: 260px ;
 }
 
-.img-txt{
-	  position: absolute;
-  top: 0px;
-  left: 59px;
-  width: 500px;
-  /*padding-top: 10px;
-  padding-left: 10px;
-*/
-font-size: 30px;
-padding: 49px 75px;
-margin-left: ;
+.img-txt {
+	font-size: 30px;
+	padding: 64px 0;
+	padding-bottom: 122px;
+}
 
-  
-  }
+.get-started-top {
+	max-width: 430px;
+}
+
   .img-txt h2{
-  	font-weight: 700px;
+  	font-weight: 700;
   	font-size: 46px;
-  	line-height: 60px;
+		line-height: 60px;
+		margin-top: 23px;
   	margin-bottom: 23px;
 
   }
-  .img-txt p{
+  .img-txt .get-started-text{
   	font-size: 18px;
   	line-height: 29px;
 	  font-weight: 400px;
 	  font-style: normal;
-	  margin-bottom: 32px;
-	  width: 500px;
-  }
+		margin-bottom: 32px;
+		display: block;
+	}
+	.get-btn-wrapper {}
   .hubspot1{
 	background-color: #ff7a59;
 	color: white;
-	transition-duration: .04s;
 	padding: 22px 34px;
 	font-size: 17px;
-	font-weight: 600px bold;
+	font-weight: bold;
 	line-height: 29px;
 	border-radius: 4px;
-	margin-left: 1px;
+	width: 225px;
+	display: inline-block;
 }
 .hubspot1:hover{
 background-color: #ff7979;
 color: white;
+}
+
+.get-started-note {
+	margin: 28px 0;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 a{
@@ -241,9 +250,7 @@ color: white;
 .boxes{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	padding: 8px 135px 8px 135px;
-	width: 100%;
+	padding: 100px 50px;
 }
 .box{
 	background-color: white;
@@ -255,7 +262,7 @@ color: white;
 	padding-top: 24px;
 	padding-left: 32px;
 	padding-right: 32px;
-	margin: ;
+	margin-right: 22px;
 	transition: transform .5s;
 	font-size: 20px;
 
@@ -310,10 +317,7 @@ color: white;
 	border: none;
 	box-sizing: border-box;
 	width: 345px;
-	height: 476px;
-	margin-top: ;
 	padding-right: 32px;
-	margin: ;
 	font-size: 20px;
 
 	/*border: none;
@@ -693,8 +697,7 @@ color: white;
 			  display: none;
 		  }
 		  img.garage{
-			margin-top: 100px;
-			width: 800px;
+			width: 480px;
 		  }
 		  div.boxes{
 			  display: flex;
