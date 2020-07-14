@@ -696,6 +696,10 @@ color: white;
 			margin-top: 100px;
 			width: 800px;
 		  }
+		  div.boxes{
+			  display: flex;
+			  flex-direction: column;
+		  }
 		  
 
 }
