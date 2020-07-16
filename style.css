@@ -18,6 +18,9 @@ body{
 	max-width: 1220px;
 	margin: 0 auto;
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 /* .dropdown-s {
 	position: relative;
@@ -57,7 +60,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 142px 0 125px;
+	/* padding: 0 142px 0 125px; */
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -87,12 +90,14 @@ header{
 	left: 0;
 	right: 0;
 	margin-top: 260px ;
+	
 }
 
 .img-txt {
 	font-size: 30px;
-	padding: 64px 0;
+	padding: 64px 0px;
 	padding-bottom: 122px;
+	padding-left: 70px;
 }
 
 .get-started-top {
@@ -115,7 +120,7 @@ header{
 		margin-bottom: 32px;
 		display: block;
 	}
-	.get-btn-wrapper {}
+	
   .hubspot1{
 	background-color: #ff7a59;
 	color: white;
@@ -159,7 +164,6 @@ header ul{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: ;
 	margin-top: 77px;
 	padding: 2px 155px 2px 131px;
 	font-size: 16px;
@@ -194,12 +198,6 @@ header ul{
 	margin-left: 5px;
 }
 
-.right{
-padding-right: ;
-font-weight:;
-font-size: ;
-	
-}
 .right li{
 margin-left: 30px;
 
@@ -209,9 +207,7 @@ margin-left: 30px;
 	list-style: none;
 	margin: 24.5px 0;
 }
-.header-btn{
-	padding-right: ;
-}
+
 .search{
 	padding-right: 20px;
 	font-size: 15px;
@@ -222,7 +218,6 @@ margin-left: 30px;
 	background-color: white;
 	color: red;
 	transition-duration: .04s;
-	width: ;
 	padding: 11px 28.5px;
 	font-size: 13px;
 	border-radius: 4px;
@@ -291,7 +286,6 @@ color: white;
 	font-size: 13px;
 	line-height: 31px;
 	color: #33475b;
-	margin-top: ;
 }
 .box i{
 	color: red;
@@ -341,6 +335,7 @@ color: white;
 	width: 100%;
 	transition-duration: .04s;
 	padding: 15px 103px;
+	
 	font-size: 15px;
 	color: #ffffff;
 	font-weight: 600px;
@@ -397,7 +392,7 @@ margin-top: 2px;
 	flex-wrap: wrap;
 }
 .info-2 > div {
-  background-color:;
+
 
   width: 100px;
   margin: 20px 70px;
@@ -427,27 +422,23 @@ footer{
 
 }
 
-.social{
-	
 
-}
 footer  li:hover{
 	color: #7fd1de;
 }
 .social > ul{
 	display: flex;
 	justify-content: flex-end;
-	padding: ;
+	
 	margin-top: -55px ;
 	margin-right: 110px;
 	list-style: none;
 
 }
 .social  li {
-	display: ;
+
 	padding: 20px 13px;
-	margin: ;
-	line-height: ;
+
 }
 .social ul >  li > i{
 	font-size: 23px;
@@ -465,20 +456,20 @@ footer  li:hover{
 	text-decoration: none solid rgb(127,209,222);
 }
 .footer-box{
-	background-color: ;
+
 	width: 270px;
 	height: 400px;
 	font-size: 18px;
 	font-weight: 700px bold;
 	line-height: 29px;
 	padding: 0 0px;
-	margin: ;
+	
 	margin-top: 64px;
 	margin-right: 9px;
 }
 .footer-box ul{
 	padding-left: 0px;
-	padding-right: ;
+	
 }
 .footer-box b{
 	color: white;
@@ -491,15 +482,14 @@ footer  li:hover{
 	width: 100%;
 	list-style: none;
 	padding-right: 125px;
-	margin: ;
-	text-align: ;
+
 }
 .lang li{
 	font-size: 18px;
 	font-weight: 600px;
 	line-height: 29px;
 	padding: 16px;
-	margin: ;
+	
 	
 }
 .lower{
@@ -518,7 +508,7 @@ footer  li:hover{
 
 }
 .lower-right{
-	text-align: ;
+	
 	font-size: 18px;
 	line-height: 29px;
 	}
@@ -539,31 +529,25 @@ footer  li:hover{
 	.number{
 		display: flex;
 		flex-direction: column;
-		justify-content: ;
-		align-items: ;
 		font-size: 40px;
 		line-height: 53px;
 		font-weight: 700px;
 		color: #33475b;
 		font-style: normal;
-		align-self: ;
 		
 	
 
 	}
 	.h4{
 		font-size: 40px;
-		align-self: ;
+		
 		font-weight: 700px;
 	
 		margin-bottom: -20px;
 
 
 	}
-	.number p {
 	
-		margin-top: ;
-	}
 	.company{
 		align-self: center;
 	}
@@ -593,9 +577,7 @@ footer  li:hover{
 		margin-bottom: 0px;
 
 	}
-	.c1-right{
-		border: ;
-	}
+	
 	.c1-right > img{
 		width: 350px;
 		height: 450px;
@@ -647,9 +629,7 @@ color: white;
 	div.right{
 		display: none;
 	}
-		div.logo img{
-		  height:  ;
-		}
+		
 		div.menu-bar{
 			display: flex;
 		  }
