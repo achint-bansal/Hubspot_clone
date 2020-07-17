@@ -15,8 +15,19 @@ body{
 }
 
 .container {
-	max-width: 1220px;
+	max-width: 1080px;
 	margin: 0 auto;
+	padding: 0 2rem;
+	box-sizing: content-box;
+	position: relative;
+	/* display: flex;
+	justify-content: space-between;
+	align-items: center; */
+}
+.container-header{
+	/* max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 2rem; */
 	position: relative;
 	display: flex;
 	justify-content: space-between;
@@ -57,15 +68,18 @@ header{
 	background-color: #f5f8fa;
 	color: #33475b;
 	border-bottom: 1px solid #cbd6e2;
-	display: flex;
+	/* display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; */
 	/* padding: 0 142px 0 125px; */
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 2;
 	
+}
+.header-btn{
+	display: flex;
 }
 .fa-caret-down {
 	font-size: 22px;
@@ -152,8 +166,12 @@ header ul{
 	margin: 12.5px 0px;
 	padding-left: 0px;
 }
+/* .menu{
+	display: flex;
+	flex: 10;
+} */
 .menu li{
-	padding: 10px;
+	padding: 10px 20px 10px 0px;
 	font-weight: 500px;
 	font-size: 16px;
 	line-height: 29px;
@@ -218,7 +236,7 @@ margin-left: 30px;
 	background-color: white;
 	color: red;
 	transition-duration: .04s;
-	padding: 11px 28.5px;
+	padding: 9.5px 28.5px;
 	font-size: 13px;
 	border-radius: 4px;
 	margin-right: 7px;
@@ -232,9 +250,13 @@ margin-left: 30px;
 	background-color: #ff7a59;
 	color: white;
 	transition-duration: .04s;
-	padding: 11px 15px;
+	width: 134px;
+	height: 37px;
+	/* padding: 0px 17.5px; */
+	text-align: center;
 	font-size: 13px;
-	font-weight: 500px;
+	line-height: 29px;
+	font-weight: 400;
 	border-radius: 4px;
 }
 .hubspot:hover{
