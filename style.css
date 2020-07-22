@@ -24,7 +24,7 @@ body{
 	justify-content: space-between;
 	align-items: center; */
 }
-.container-header{
+.container-content{
 	/* max-width: 1080px;
 	margin: 0 auto;
 	padding: 0 2rem; */
@@ -181,11 +181,11 @@ header ul{
 
 .navbar{
 	background-color: white ;
-	display: flex;
+	/* display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; */
 	margin-top: 77px;
-	padding: 2px 155px 2px 131px;
+	/* padding: 2px 155px 2px 131px; */
 	font-size: 16px;
 	font-weight: 600px bold;
 	line-height: 29px;
