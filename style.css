@@ -75,7 +75,7 @@ header{
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 2;
+	z-index: 4;
 	
 }
 .header-btn{
@@ -97,23 +97,53 @@ header{
 .img-bg-clr{
 	background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
 	background-color: #fab1a0;
-	position: relative;
-	z-index: -1;
+	position: ;
+	/* z-index: -1; */
+	border-bottom: 3px solid #33475b;
 }
 .heroSVG{
 	position: absolute;
+	z-index: 2;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin-top: 260px ;
 	
 }
+.img-footer{
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	top:  -137px;
+	z-index: 1;
+}
+.img-footer-left{
+	
+	
+	
+	width: 70%;
+	height: 74px;
+	border-top: 3px solid #33475b;
+	
+	
+	background-color: #AFEBE4;
+
+}
+.img-footer-right{
+	
+	
+	
+	width: 30%;
+	height: 137px;
+	background-color: #00A48D;
+	border-top: 3px solid #33475B;
+}
 
 .img-txt {
 	font-size: 30px;
 	padding: 64px 0px;
 	padding-bottom: 122px;
-	padding-left: 70px;
+	/* padding-left: 70px; */
 }
 
 .get-started-top {
