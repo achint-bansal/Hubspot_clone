@@ -427,36 +427,55 @@ color: white;
 .contact:hover{
 	background-color: #e6fff7;
 }
-.info{
-background-color: #38ada9;
-color: white;
-width: 100%;
-display: flex;
-flex-direction: column;
+.flex--column{
+	flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 0 81px;
+
+}
+.max-width--710{
+	max-width: 710px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.info{
+
+background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+color: white;
+width: 100%;
+/* display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+padding: 112px 0;
 margin-top: 2px;
 }
 .info-text{
 	text-align: center;
-	padding: 80px;
-	margin: 60px;
+	
 	font-size: 30px;
 	align-self: center;
 }
 .info-text h2{
-	font-weight: 700px;
-	font-family: 32px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	font-style: normal;
+	margin: 16px 0px;
+
 }
 .info-text p{
 	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
 }
 .info-2{
+	margin-top: 80px;
 	display: flex;
 	flex-wrap: wrap;
 }
-.info-2 > div {
+/* .info-2 > div {
 
 
   width: 100px;
@@ -469,6 +488,63 @@ margin-top: 2px;
 }
 .info-2 >p{
 	text-align: center;
+} */
+.info-icon_text--wrapper{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 30px;
+ flex: 1 1 25%;
+}
+.border-right{
+    border-right: 1px solid #fff;
+}
+.border-bottom{
+    border-bottom: 1px solid #fff;
+}
+.info-icon{
+	margin-bottom: 15px;
+	font-size: 18px;
+	line-height: 29px;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.info-icon img{
+	
+	max-width: 150px;
+	max-height: 100%;
+	margin: auto;
+}
+.info-2--stat{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.info-2--stat h2{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 45px;
+	font-style: normal;
+	margin: 0 0 5px;
+}
+.info-2--stat__plus h2::after{
+	content: "+";
+	font-size: 1rem;
+	font-style: normal;
+	line-height: 29px;
+	font-weight: 600;
+	position: relative;
+	top: -12px;
+}
+.info-2--stat p{
+	font-size: 1rem;
+	font-weight: 500;
+	margin: 0;
 }
 .dv1{
 	border-right: 2px solid white;
