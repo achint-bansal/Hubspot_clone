@@ -169,16 +169,22 @@ body{
 		display: block;
 	}
 	
-  .hubspot1{
+  .hubspot1 {
 	background-color: #ff7a59;
 	color: white;
+	display: block;
 	padding: 22px 34px;
 	font-size: 17px;
 	font-weight: bold;
 	line-height: 29px;
 	border-radius: 4px;
-	width: 225px;
+	width: 100%;
 	display: inline-block;
+}
+@media screen and (min-width: 768px) {
+	.hubspot1 {
+		width: 225px;
+	}
 }
 .hubspot1:hover{
 background-color: #ff7979;
@@ -400,13 +406,12 @@ color: white;
 }
 .started{
 	background-color: #ff7a59;
-	
+	display: block;
 	transition-duration: .04s;
-	padding: 15px 103px;
-	/* width: 100%; */
+	padding: 15px;
+	width: 100%;
 	left: 0px;
 	right: 0px;
-	vertical-align: middle;
 	text-align: center;
 	font-size: 15px;
 	color: #ffffff;
