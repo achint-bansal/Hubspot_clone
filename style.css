@@ -9,10 +9,6 @@ body{
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 400 normal;
 	margin: 0;
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center; */
-
 }
 
 .container {
@@ -21,17 +17,10 @@ body{
 	padding: 0 2rem;
 	box-sizing: content-box;
 	position: relative;
-	/* display: flex;
-	justify-content: space-between;
-	align-items: center; */
 }
 .container-content{
-	/* max-width: 1080px;
-	margin: 0 auto;
-	padding: 0 2rem; */
 	position: relative;
 	display: flex;
-	
 	justify-content: space-between;
 	align-items: center;
 }
@@ -79,7 +68,6 @@ body{
 	/* width: 100%; */
 	right: 0px;
 	left: 0px;
-	
 	z-index: 4;
 	
 }
